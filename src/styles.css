@@ -1,0 +1,73 @@
+body {
+    background-color: #36454F;
+}
+
+h1 {
+    font-size: 66px;
+    font-weight: 800;
+    color: beige;
+    justify-content: center;
+    display: flex;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 30px;
+    height: 600px;
+    width: 100%;
+}
+
+#menu {
+    height: 512px;
+    width: 200px;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 3rem;
+
+}
+
+.inputBox {
+    width: 3rem;
+}
+
+.mode {
+    color: black;
+    background-color: white;
+}
+
+/* button {
+    width: 10rem;
+} */
+
+#sketchPad {
+    border: 2px solid white;
+    background-color: white;
+    height: 512px;
+    width: 512px;
+    display: grid;
+    /* grid-template-columns: repeat(32, 16px);
+    grid-template-rows: repeat(32, 16px); */
+}
+
+#rightEmpty {
+    height: 512px;
+    width: 200px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-bottom: 20px;
+    color: beige;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
+
